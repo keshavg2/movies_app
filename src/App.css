@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.page{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin:20px;
+}
+
+.btn{
+  justify-content: flex-start;
+}
+
+.btn > button{
+  border:0;
+  color: #282c34;
+  font-family: inherit;
+  font-size: 1.2rem;
+  border: 2px solid #22254b;
+  border-radius: 50px;
+  background-color: transparent;
+  padding: 0.5rem 1.5rem;
+  margin-right:10px;
+}
